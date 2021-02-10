@@ -1,0 +1,342 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: 'Lustria', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+h2, h3
+{
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+p
+{
+	line-height: 24px;
+}
+
+a
+{
+	font-family: 'Lato', Arial, sans-serif;
+	font-style: italic;
+}
+
+#container
+{
+
+	width: 1400px;
+	height: auto;
+	margin: 0 auto;
+	background: transparent linear-gradient(270deg, #FFFFFF 0%,
+	#8DBE6E 100%, #74AF4D 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	background: #3485FFAB 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#mainHeader ul
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	margin-top: 30px;
+	margin-left: 40px;
+	display: block;
+	justify-content: center;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	text-decoration: none;
+
+
+
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #04306A;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+
+#beerInfo
+{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 0.77;
+margin: 40px 60px 40px 60px;
+
+}
+
+#beerInfo:hover
+{
+	opacity: 1;
+	cursor: default;
+}
+
+#beerText h2
+{
+	text-align: left;
+	font: italic normal bold 48px 'Lustria', Arial, sans-serif;
+	letter-spacing: 1.04px;
+	color: #04306A;
+	opacity: 1;
+	margin-bottom: 20px;
+	animation: myfirst 5s linear 2s infinite alternate;
+}
+
+#beerText p{
+	text-align: left;
+font: italic normal bold 28px 'Lato', Arial, sans-serif;
+letter-spacing: 0.56px;
+color: #64A3E8;
+opacity: 1;
+
+}
+
+@keyframes myfirst {
+  0%   {background-color:#3485FFAB; left:0px; top:0px;}
+  25%  {background-color:white; left:200px; top:0px;}
+  50%  {background-color:#3485FFAB; left:200px; right:200px;}
+  75%  {background-color:white; left:0px; right:200px;}
+  100% {background-color:#3485FFAB; left:0px; top:0px;}
+}
+
+#services
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+#services h2
+{
+	font: italic normal bold 32px 'Lustria', Arial, sans-serif;
+	color: #04306A;
+	margin-bottom: 15px;
+}
+
+#services section
+
+{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 0.77;
+margin: 40px 60px 40px 60px;
+padding: 10px;
+}
+
+#services section:hover{
+	background-color: #3485FFAB;
+	opacity: 2;
+	cursor: default;
+}
+
+#aboutUs h3
+{
+	text-align: center;
+	font: italic normal bold 32px 'Lustria', Arial, sans-serif;
+	letter-spacing: 1.04px;
+	color: #64A3E8;
+	opacity: 1;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#aboutUs p
+	{
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 0.77;
+	margin: 40px 60px 40px 60px;
+	padding: 10px;
+	}
+
+	#products h1 h3{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height: 400px;
+		margin-left: 30px;
+
+	}
+
+	#products h1{
+		font: italic normal bold 32px 'Lustria', Arial, sans-serif;
+		letter-spacing: 1.04px;
+		color: #64A3E8;
+		opacity: 1;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#products h3{
+		font: italic normal bold 24px 'Lato', Arial, sans-serif;
+		letter-spacing: 1.04px;
+		color: #64A3E8;
+		opacity: 1;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#surroundDiv1{
+		margin-right: 30px;
+		justify-content: center;
+	}
+
+	#surroundDiv2{
+		margin-right: 30px;
+	}
+
+
+
+	#adverts{
+		height: 400px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+
+	}
+
+	#adverts h2{
+	margin-left: 375px;
+		font: italic normal bold 32px 'Lustria', Arial, sans-serif;
+		color: red;
+		position: relative;
+
+		animation: mysecond 5s linear 2s infinite alternate;
+	}
+
+	@keyframes mysecond {
+	  0%   {left:0px; top:0px;}
+	  25%  {left:400px; top:0px;}
+	  50%  {left:400px; top:200px;}
+	  75%  {left:0px; top:200px;}
+	  100% {left:0px; top:0px;}
+	}
+
+
+	#contactArea
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+  	background-color: #5c74d5;
+  	height: 210px;
+}
+
+.contactWrap
+{
+	height: 100%;
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+
+}
+
+.formWrap
+{
+	width: 50%;
+	height: 100%;
+	margin: 40px 40px 40px 40px;
+	font-family: 'Lustria', Arial, sans-serif;
+	font-size: 20px;
+
+}
+
+.formWrap p
+{
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #5c74d5;
+	margin-bottom: 20px;
+
+}
+
+textarea, select, input
+{
+	width: 100%;
+	resize: none;
+	margin: 10px;
+}
+
+input[type=submit]
+{
+margin-top:30px;
+margin-left: 200px;
+color: blue;
+width: 20%;
+height: 30px;
+
+}
+/*Page 4*/
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+	.hidden{display:none;}
+	body{margin:0;}
+}
+
+
+#mainFooter
+{
+	display: flex;
+	flex-direction: row;
+	background: #3485FFAB 0% 0% no-repeat padding-box;
+	opacity: 1;
+	margin-bottom: 20px;
+}
+
+#mainFooter ul
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+#footerNav ul li a
+{
+	margin-top: 30px;
+	margin-left: 40px;
+	display: block;
+	justify-content: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #04306A;
+	border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+Website Fonts/Dimensions
+
+h2 h3 a font
+Lato size 48, 32, 24px
+
+body font
+Lustria size 14px
+
+page 1
+
+header nav- 1300x100
+box 1- 1175x185
+box 2- 380x350
+box 3- 260x350
+box 4- 300x350
+footer nav- 1300x210
+
+page 2
+
+header nav- 1300x100
+box 1- 1180x70
+box 2- 640x50
+box 3- 1180x95
+box 4- 330x50
+footer nav- 1300x210
+
+
+
+
